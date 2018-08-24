@@ -114,7 +114,7 @@ namespace oopSkillsDemo1
             //telling the customer they must order over the minimum order quantity
             if (fuelRequired <  minimumQuantity)
             {
-                Console.WriteLine("You must order " + minimumQuantity + " litres or more" );
+                Console.WriteLine("You must order " + minimumQuantity + " litres or more!" );
             }
             //telling the customer that there is an issue when there is not adequate stock to fulfill order
             else if (fuelRequired > litreAmount)
